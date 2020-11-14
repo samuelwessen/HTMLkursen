@@ -1,0 +1,48 @@
+
+/* 
+    px     =    pixlar hur många punkter på en skärm 720p -> 720 pixlar 1080p -> 1080 pixlar
+    pt     =    punkter som motsvar 0.75 av en pixel
+    %      =    procentuell storlek av något
+    rem    =    relativ till font-size i html (standard 16px)
+    em     =    relativ till ett parent element som har en font-size (om ingen finns så html)
+    vh     =    viewport height webbläsarens höjd
+    vw     =    viewport width webbläsarens bredd
+*/
+
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    font-size: 5px;
+   
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2rem;
+    /* font-weight: 400; */
+    /* line-height: 1.5; */
+    /* color: #212529; */
+    /* text-align: left; */
+    /* background-color: #fff; */
+}
+
+
+div {
+    font-size: 2em;
+}
+
+
+.border {
+    border: 1px solid #666;
+}
+
+.parent {
+    border: 2px solid blue;
+}

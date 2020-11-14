@@ -1,0 +1,66 @@
+Startfiler
+----------------------------------------------------------------------------------------------------
+index.html
+Index.html
+default.html
+Default.html
+
+går att använda: http://127.0.0.1/
+står egentligen: http://127.0.0.1/index.html
+
+går att använda: http://localhost/
+står egentligen: http://localhost/index.html
+
+
+
+IP-adresser
+-----------------------------------------------------------------------------------------------------
+Detta är min egna dator som är en server. Bara jag som kan komma åt detta...
+namn:   localhost
+ip:     127.0.0.1
+
+Privata adresser fungerar bara på det egna lokala nätverket
+privata:    10.0.0.0 - 10.255.255.255, 172.16.0.0 - 172.31.255.255, 192.168.0.0 - 192.168.255.255
+
+Publika adresser fungerar bara ute på internet och tillhandahålls av internetleverantörerna
+publika:    allt annat som inte ingår i det privata 0.0.0.0 - 255.255.255.255
+
+
+Domännamn
+-----------------------------------------------------------------------------------------------------
+Domännamn är ett logiskt namn som omvandlas till en ip-adressen av en DNS-server. Detta kallas
+för forward lookup zone.
+
+aftonbladet.se  ->  13.49.132.198
+ecutbildning.se ->  185.20.13.50
+    Subdomän
+    ------------------------------------------------------
+    www.        ->  185.20.13.50          www.ecutbildning.se
+
+
+pingpong.se     ->  91.189.41.170
+    Subdomän
+    ------------------------------------------------------
+    yh.         ->  79.136.98.167           yh.pingpong.se
+    www.        ->  79.136.116.200          www.pingpong.se
+
+
+Portar
+-----------------------------------------------------------------------------------------------------
+En port är en specifik ingår på datorn/servern som en viss hemsida kan svara på. Det kan finnas
+en eller flera portar som går till samma hemsida på en server. Det finns totalt 65 536 portar
+
+http://localhost:80
+
+går att använda: http://ecutbildning.se/
+står egentligen: http://ecutbildning.se:80/index.html
+
+går att använda: https://ecutbildning.se/
+står egentligen: https://ecutbildning.se:443/index.html
+
+
+HTTP    ->      80
+HTTPS   ->      443 
+
+FTP     ->      20, 21
+SSH     ->      22

@@ -1,0 +1,17 @@
+Hämta hem en existerande github repository
+git clone https://.........
+
+----------------------------------------------------------
+Skapa en ny git och koppla den till en github repository
+
+git init
+git remote add origin https://.......
+
+----------------------------------------------------------
+Löpande kommandon som görs hela tiden
+
+git add .
+git commit -m "mitt meddelande"
+
+git pull orgin master			
+git push origin master
