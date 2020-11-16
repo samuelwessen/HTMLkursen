@@ -130,6 +130,11 @@ html, body {
     font-family: Roboto Slab;
 }
 
+.navbar-main a {
+    color: #363636;
+    text-decoration: none;
+}
+
 /* navbar-showcase */
 .navbar-showcase {
     padding-top:1rem;
@@ -140,4 +145,47 @@ html, body {
 }
 .showcase-icon  {
     line-height: 0;
+}
+
+
+/* navbar-appointment */
+/* OPACITYN ÄR LITE FEL FORTFARANDE */
+.navbar-appointment {
+    background-color: rgb(43, 170, 236, 40%) ;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    line-height: 0;              
+}
+
+.navbar-appointment p {
+    color:  #FFFFFF;
+    font-family: Roboto Slab;
+    display: flex;
+    font-size: 2rem;
+    
+}
+.appointment-section {
+display: flex;
+}
+.navbar-appointment button {
+    background-color: white;
+    color: #2ca9ed;    
+    font-size: 1.05rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    height: 3.5;        
+}
+
+
+/* navbar-footer */
+/* MÅSTE FÅ TEXTEN CENTRERAD */
+.navbar-footer {
+    background-color: #2BAAEC;    
+}
+.navbar-footer p {    
+    opacity: 60%;
+    color: #F3FBFF;
+    font-size: 1rem;      
+    
 }
