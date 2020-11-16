@@ -42,3 +42,8 @@ a {
 @media (min-width: 1200px) { 
 
 }
+
+/* Ultra wide devices (large desktops, 1920px and up) */
+@media (min-width: 1920px) { 
+
+}
