@@ -151,7 +151,7 @@ html, body {
 /* navbar-appointment */
 /* OPACITYN ÄR LITE FEL FORTFARANDE */
 .navbar-appointment {
-    background-color: rgb(43, 170, 236, 40%) ;
+    background-color: rgb(43, 170, 236, 80%) ;
     padding-top:5rem;
     padding-bottom:5rem;
     line-height: 0;              
@@ -179,13 +179,13 @@ display: flex;
 
 
 /* navbar-footer */
-/* MÅSTE FÅ TEXTEN CENTRERAD */
 .navbar-footer {
-    background-color: #2BAAEC;    
+    background-color: #2BAAEC;
 }
 .navbar-footer p {    
     opacity: 60%;
     color: #F3FBFF;
-    font-size: 1rem;      
+    font-size: 1rem;
+    margin-left: 50%;      
     
 }
