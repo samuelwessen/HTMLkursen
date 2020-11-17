@@ -146,6 +146,43 @@ html, body {
 .showcase-icon  {
     line-height: 0;
 }
+.our-clinic-header{
+    font-size: 3.5rem;
+}
+.showcase-aboutourclinic{
+    width: 700px;    
+    margin-left: 9.5rem;
+    margin-top: 9rem;
+    padding-top: 1.4rem;    
+    line-height: 1.2;
+}
+#showcase-rubrik {
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 3.5rem;
+    white-space: normal;
+    font-family: Roboto Slab;
+}
+#showcase-text {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 1.1rem;
+    color: #626262;
+    line-height: 1.5;
+}
+#aboutclinicbtn {
+    background-color: #25E6C8;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 8px;
+    border: none;
+}
 
 
 /* navbar-appointment */
@@ -179,6 +216,7 @@ display: flex;
 
 
 /* navbar-footer */
+/* STÄMMER INTE HELT VILL FÅ EN ANNAN LÖSNING */
 .navbar-footer {
     background-color: #2BAAEC;
 }
@@ -186,6 +224,6 @@ display: flex;
     opacity: 60%;
     color: #F3FBFF;
     font-size: 1rem;
-    margin-left: 50%;      
+    margin-left: 43%;      
     
 }
