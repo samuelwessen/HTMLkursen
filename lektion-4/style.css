@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+
+
+/* mobile first - Standard Styling */
+
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (min-width: 768px) { .container { max-width: 720px; } }
+@media (min-width: 1200px) { .container { max-width: 1120px; } }
+
+
+a {
+    color: #2baaec;
+    text-decoration: none;    
+}
+a:hover {
+    color: #25e6c8;
+}
+
+
+
+
+/* topmeny */
+#topmenu {
+    display: none;
+    border-bottom: 1px solid rgba(0, 0,0, 0.1);
+}
+@media (min-width: 768px) { #topmenu { display: block;} }
+
+#topmenu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#topmenu .container .hours {
+    flex: 2;
+}
+
+#topmenu .container .hours i {
+    margin-right: 0.5rem;
+    color: #2baaec;
+    font-size: 1.2rem;
+}
+
+#topmenu .container .socialmedia {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+#topmenu .container .socialmedia li{
+    margin-left: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablets */
+@media (min-width: 768px) {
+
+}
+/* desktop */
+@media (min-width: 768px) {
+
+}
