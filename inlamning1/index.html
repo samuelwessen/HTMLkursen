@@ -7,78 +7,99 @@
     <script src="https://kit.fontawesome.com/043e51ac62.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
      
-    <title>inlamning 1</title>
+    <title></title>
 </head>
-<body >
-
-    <nav class="navbar-top border">
-        <div class="container d-flex justify-content-space-between">
-            <div class="working-hours">
+<body>
+    <div id="topmenu">
+        <div class="container">
+            <div class="hours">
                 <i class="far fa-clock"></i>
-                <p>Working hours: Monday - Friday: 9:00 - 18:00</p>
+                <span>Working hours: Monday – Friday: 9:00 – 18:00</span>
             </div>
-            <ul>
+
+            <ul class="socialmedia">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-google"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
-    </nav>
+    </div>
 
-    <nav class="navbar-main">
-        <div class="container d-flex justify-content-space-between">
-            <div class="mainmeny-icon">
-                <img src="pictures/Logo.svg" alt="">
+    <nav id="mainmenu">
+        <div class="container">
+            <img class="logo" src="pictures/Logo.svg" alt="logotype">
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="btn"><i class="fas fa-bars"></i></button>
             </div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>        
-
-        </div>    
-
+        </div>
     </nav>
 
-    <nav class="navbar-showcase">
-        <div class="container d-flex justify-content-space-between">
-            <div class="showcase-icon d-flex justify-content-space-between">
-                <img src="pictures/showcaseperson.svg" alt="">
-                <div class="showcase-aboutourclinic">
-                    <div id="showcase-rubrik">Modern technologies ensure safety</div>
-                    <div id="showcase-text">Our clinic is equipped with the highest quality medical and dental equipment,
-                        wich allows for quick and effective treatment of the patient.
-                    </div>
-                    <button id="aboutclinicbtn">About our clinic</button>
-
+    <nav id="showcase">
+        <div class="container">            
+            <img src="pictures/showcaseperson.svg" alt="showcaseperson">
+            <div class="showcase">
+                <div id="showcase-rubrik"><h2>Modern technologies ensure safety</h2></div>
+                <div id="showcase-text">Our clinic is equipped with the highest quality medical and dental equipment,
+                    wich allows for quick and effective treatment of the patient.
                 </div>
-                
-            </div>
+                <button id="aboutclinicbtn">About our clinic</button>
 
-        </div>
-        
-
-    </nav>
-
-    <nav class="navbar-appointment">
-        <div class="container d-flex justify-content-space-between">            
-            <div class="appointment-section">
-                <p>Do not wait and make an appointment today!</p>                
-            </div>
-            <button>Book an appointment</button>
-        </div>
-
-    </nav>
-
-    <nav class="navbar-footer">
-        <div class="container d-flex justify-content-space-between">
-            <p><i class="far fa-copyright"></i>2020 DentalClinic</p>
+            </div>                
             
-        </div>
+        </div>       
 
     </nav>
+
+
+    <section id="services">
+        <div class="container">
+            
+            <div id="service-title" class="title">
+                <h1>Our services</h1>
+            </div>
+
+            <div id="service-box-1" class="service-box">
+                <img src="" alt="image">
+                <h2>Tooth inspection</h2>
+                <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
+            </div>
+            <div id="service-box-2" class="service-box">
+                <img src="" alt="image">
+                <h2>Tooth inspection</h2>
+                <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
+            </div>
+            <div id="service-box-3" class="service-box">
+                <img src="" alt="image">
+                <h2>Tooth inspection</h2>
+                <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
+            </div>
+            <div id="service-box-4" class="service-box">
+                <img src="" alt="image">
+                <h2>Tooth inspection</h2>
+                <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
+            </div>
+            <div id="service-box-5" class="service-box">
+                <img src="" alt="image">
+                <h2>Tooth inspection</h2>
+                <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
+            </div>
+            <div id="service-box-6" class="service-box">
+                <img src="" alt="image">
+                <h2>Tooth inspection</h2>
+                <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
+            </div>
+
+        </div>
+    </section>
+
 
 </body>
 </html>
