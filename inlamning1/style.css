@@ -29,6 +29,10 @@ html, body {
     display: flex;
 }
 
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
 a {
     color: #2baaec;
     text-decoration: none;
@@ -53,97 +57,97 @@ a:hover {
 
 
 
-/* topmenu */
+/* topmeny */
 #topmenu {
     display: none;
-    border-bottom: 1px solid rgba(0,0,0,0.1)
+    border-bottom: 1px solid rgba(0, 0,0, 0.1);
 }
-@media (min-width: 768px) { #topmenu { display: block; }}
+@media (min-width: 768px) { #topmenu { display: block;} }
 
 #topmenu .container {
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
 
-    grid-template-columns: 2fr 1fr;
+#topmenu .container .hours {
+    flex: 2;
 }
 
 #topmenu .container .hours i {
     margin-right: 0.3rem;
     color: #2baaec;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 #topmenu .container .socialmedia {
+    flex: 1;
     display: flex;
     justify-content: flex-end;
     list-style: none;
     margin: 0;
 }
 
-#topmenu .container .socialmedia li {
+#topmenu .container .socialmedia li{
     margin-left: 1.3rem;
 }
-
 
 
 
 
 /* mainmenu */
 #mainmenu {
-    font-family: 'Roboto Slab', serif; 
+    font-family: 'Roboto Slab', serif;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-@media (min-width: 768px) { #mainmenu { padding-top: 2rem; padding-bottom: 2rem;} }
-
+@media (min-width:768px) { #mainmenu { padding-top: 2rem; padding-bottom: 2rem;} }
 
 #mainmenu .container {
-    display: grid;
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-
-    grid-template-columns: 1fr 2fr;
+    align-items: center;    
 }
 
-#mainmenu .container .logo {
-    height: 50px;
+#mainmenu .container .logo {       
+    height: 50px;    
 }
-@media (min-width: 768px) { #mainmenu .container .logo { height: 60px; } }
-
+@media (min-width: 768px) { #mainmenu .container .logo { height: 60px;} }
 
 #mainmenu .container .menu {
+    flex: 2;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;    
 }
 
-#mainmenu .container .menu ul {
+#mainmenu .container .menu ul {    
     display: none;
     list-style: none;
     margin: 0;
 }
-@media (min-width: 992px) { #mainmenu .container .menu ul { display: flex; } }
+@media (min-width: 992px) { #mainmenu .container .menu ul {display: flex;} }
 
 
-#mainmenu .container .menu ul li {
+#mainmenu .container .menu ul li {    
     margin-left: 1.3rem;
 }
 
-#mainmenu .container .menu ul li a {
+#mainmenu .container .menu ul li a {    
     color: #363636;
 }
-#mainmenu .container .menu ul li a:hover {
+
+#mainmenu .container .menu ul li a:hover {    
     color: #25e6c8;
 }
 
-
-#mainmenu .container .menu button {
-    font-size: 2.0rem;
-    padding: 0;
+#mainmenu .container .menu button {    
+    font-size: 2rem;
+    padding: 0;    
 }
-@media (min-width: 992px) { #mainmenu .container .menu button { display: none; } }
+@media (min-width: 992px) { #mainmenu .container .menu button {display: none;} }
+
 
 
 
@@ -151,80 +155,49 @@ a:hover {
 /* showcase */
 #showcase {
     background: #DEDEDE;
-    padding-top:1rem;
-    padding-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
     display: flex;
 }
 #showcase img {
     display: none;
 }
-@media (min-width: 992px) {#showcase .container img {display: block;} }
+@media (min-width: 1200px) {#showcase .container img {display: block; padding-right: 5rem; } }
 
-#showcase-rubrik h2{
+
+
+#showcase-rubrik p{
+    padding-top: 3rem;
     word-wrap: break-word;
     word-break: normal;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     white-space: normal;
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab';
     color: #363636;
+    line-height: 1.2;      
 }
 
-#showcase-text {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+#showcase-text {         
     word-wrap: break-word;
     word-break: normal;
     font-size: 1.1rem;
     color: #626262;
     line-height: 1.5;
+    font-family: 'Roboto';    
 }
 
 #aboutclinicbtn {
     background-color: #25E6C8;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     color: white;
     font-size: 1.1rem;
-    width: 15rem;
-    height: 4rem;
+    width: 14rem;
+    height: 3rem;
     border-radius: 8px;
-    border: none;
+    border: none;   
+    
 }
-
-
-/* 
-
-.our-clinic-header{
-    font-size: 3.5rem;
-}
-.showcase-aboutourclinic{
-    width: 700px;    
-    margin-left: 9.5rem;
-    margin-top: 9rem;
-    padding-top: 1.4rem;    
-    line-height: 1.2;
-}
-
-#showcase-text {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    word-wrap: break-word;
-    word-break: normal;
-    font-size: 1.1rem;
-    color: #626262;
-    line-height: 1.5;
-}
-#aboutclinicbtn {
-    background-color: #25E6C8;
-    font-family: Roboto;
-    font-weight: bold;
-    color: white;
-    font-size: 1.1rem;
-    width: 15rem;
-    height: 4rem;
-    border-radius: 8px;
-    border: none;
-} */
 
 
 
@@ -293,4 +266,6 @@ a:hover {
 #service-box-6 {
     grid-area: b6;
 }
+
+
 
