@@ -206,6 +206,19 @@ a:hover {
 /* services */
 .service-box {
     background: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;    
+}
+.service-box h2{
+    font-family: 'Roboto Slab';
+    color: #363636;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.service-box p{
+    font-family: 'Roboto';
+    color: #626262;
+    font-size: 1.1rem;    
 }
 
 #services {
@@ -268,4 +281,53 @@ a:hover {
 }
 
 
+
+
+
+/* appointment */
+/* OPACITYN ÄR LITE FEL FORTFARANDE */
+#appointment {
+    background-color: rgb(43, 170, 236, 80%) ;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    line-height: 0;
+    
+}
+#appointment p {
+    color:  #FFFFFF;
+    font-family: 'Roboto Slab';
+    display: flex;
+    font-size: 2rem;
+    display: none; 
+}
+@media (min-width: 1200px) {#appointment p {display: block;}}
+
+/* vill få knappen i mitten i mobilläge */
+#appointment button {
+    background-color: white;
+    color: #2ca9ed;    
+    font-size: 1.05rem;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    height: 3.5rem;
+    width: 15rem;       
+}
+
+
+
+
+
+/* footer */
+#footer {
+    background-color: #2BAAEC;
+    display: flex;
+    align-items: center;    
+}
+#footer p {    
+    opacity: 60%;
+    color: #F3FBFF;
+    font-size: 1rem;
+    margin-left: 43%;    
+}
 
