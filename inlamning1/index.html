@@ -10,6 +10,8 @@
     <title></title>
 </head>
 <body>
+
+
     <div id="topmenu">
         <div class="container">
             <div class="hours">
@@ -26,6 +28,7 @@
         </div>
     </div>
 
+
     <nav id="mainmenu">
         <div class="container">
             <img class="logo" src="pictures/Logo.svg" alt="logotype">
@@ -37,10 +40,20 @@
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <button class="btn"><i class="fas fa-bars"></i></button>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="button">Meny</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <!-- <button class="btn"><i class="fas fa-bars"></i></button> -->
             </div>
         </div>
     </nav>
+
 
     <nav id="showcase">
         <div class="container d-flex justify-content-space-between" >            
@@ -79,7 +92,7 @@
                 <p>Comprehensive review of the mouth and detection of broken teeth and other threats.</p>
             </div>
             <div id="service-box-2" class="service-box">
-                <div class="iconbackgroundblue">                        
+                <div class="iconbackgroundgreen">                        
                     <div class="icon d-flex">
                         <img src="pictures/tooth remove icon.svg" alt="">
                     </div>
@@ -146,6 +159,25 @@
 
         </div>
     </nav>
+
+
+
+
+    <script>
+ 
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show"); }
+ 
+        window.onclick = function(event) {
+            if (!event.target.matches('.button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                            var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');}}}} 
+                                    
+    </script>
 
 
 </body>
