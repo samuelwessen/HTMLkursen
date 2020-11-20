@@ -209,7 +209,7 @@ a:hover {
 @media (min-width: 1200px) {#showcase .container img {display: block; height: 32rem; padding-right: 5rem; } }
 
 #showcase-rubrik p{
-    padding-top: 3rem;
+    padding-top: 5rem;
     word-wrap: break-word;
     word-break: normal;
     font-size: 2.5rem;
@@ -431,11 +431,12 @@ a:hover {
 /* OPACITYN ÄR LITE FEL FORTFARANDE */
 #appointment {
     background-color: rgb(43, 170, 236, 80%) ;
-    padding-top:5rem;
-    padding-bottom:5rem;
+    padding-top:2rem;
+    padding-bottom:4rem;
     line-height: 0;
     
 }
+
 #appointment p {
     color:  #FFFFFF;
     font-family: 'Roboto Slab';
@@ -443,9 +444,9 @@ a:hover {
     font-size: 2rem;
     display: none; 
 }
+
 @media (min-width: 1200px) {#appointment p {display: block;}}
 
-/* vill få knappen i mitten i mobilläge */
 #appointment button {
     background-color: white;
     color: #2ca9ed;    
