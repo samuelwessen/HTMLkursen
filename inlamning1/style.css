@@ -206,7 +206,7 @@ a:hover {
 #showcase img {
     display: none;
 }
-@media (min-width: 1200px) {#showcase .container img {display: block; padding-right: 5rem; } }
+@media (min-width: 1200px) {#showcase .container img {display: block; height: 32rem; padding-right: 5rem; } }
 
 #showcase-rubrik p{
     padding-top: 3rem;
@@ -243,6 +243,66 @@ a:hover {
     background-color: #2BAAEC;
 }
 
+
+
+
+
+/* about us */
+#aboutus .container {
+    display: flex;    
+}
+.container2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0;    
+}
+
+#aboutus h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    color: #363636;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding-bottom: 2rem;    
+    border-bottom: 4px solid #25E6C8;
+}
+#aboutus i {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    color: #2BAAEC;
+    font-size: 2.5rem;
+    font-style: normal;
+    line-height: 1.5;
+        
+}
+
+#aboutus .i2 {
+    flex: auto;
+}
+
+#aboutus .aboutinfo {
+    font-family: 'Roboto Slab';
+    line-height: 0;
+    color: #363636;
+}
+
+#aboutus p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #363636;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+#aboutus .p2 {
+    padding-bottom: 1rem;
+}
+
+#aboutus img {
+    display: none;
+}
+
+@media (min-width: 1200px) {#aboutus .container img {display: block; height: 34rem; margin-left:6rem; } }
 
 
 
