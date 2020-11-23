@@ -23,7 +23,7 @@ html, body {
     width: 400px;
 }
 
-#child {
+.child {
     border: 2px solid #66caa9;
     background-color: aquamarine;
     height: 150px;
@@ -33,6 +33,6 @@ html, body {
     justify-content: center;
 }
 
-#child p {
+.child p {
     margin: auto;
 }

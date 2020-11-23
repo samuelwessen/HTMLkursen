@@ -1,0 +1,22 @@
+#parent {
+    position: relative;
+}
+
+
+#child-1 {
+
+    position: static; 
+    position: relative; 
+    position: absolute; 
+    position: fixed;
+    position: sticky;
+
+    left:   0px;  
+    top:    0px; 
+    /* left och top har större prio */
+    right:  0px;
+    bottom: 0px;
+
+    z-index: 0
+}
+
