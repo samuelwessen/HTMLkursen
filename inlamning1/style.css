@@ -33,6 +33,10 @@ html, body {
     justify-content: space-between;
 }
 
+.align-center {
+    align-content: center;
+}
+
 a {
     color: #2baaec;
     text-decoration: none;
@@ -201,22 +205,24 @@ a:hover {
     background: #DEDEDE;
     padding-top: 1rem;
     padding-bottom: 0rem;
-    display: flex;
+    display: flex;       
 }
 #showcase img {
     display: none;
 }
-@media (min-width: 1200px) {#showcase .container img {display: block; height: 32rem; padding-right: 5rem; } }
+@media (min-width: 1200px) {#showcase .container img {display: block; height: 36rem; padding-right: 5rem; } }
+@media (min-width: 1200px) {#showcase-rubrik { padding-top: 5rem; } }
 
-#showcase-rubrik p{
-    padding-top: 5rem;
+#showcase-rubrik p {
+    /* padding-top: 5rem; */
     word-wrap: break-word;
     word-break: normal;
     font-size: 2.5rem;
     white-space: normal;
     font-family: 'Roboto Slab';
     color: #363636;
-    line-height: 1.2;      
+    line-height: 1.2;
+      
 }
 
 #showcase-text {         
@@ -225,7 +231,7 @@ a:hover {
     font-size: 1.1rem;
     color: #626262;
     line-height: 1.5;
-    font-family: 'Roboto';    
+    font-family: 'Roboto';       
 }
 
 #aboutclinicbtn {
@@ -237,7 +243,8 @@ a:hover {
     width: 14rem;
     height: 3rem;
     border-radius: 8px;
-    border: none;   
+    border: none;
+    margin-bottom: 2rem;      
 }
 #aboutclinicbtn:hover {
     background-color: #2BAAEC;
@@ -249,12 +256,12 @@ a:hover {
 
 /* about us */
 #aboutus .container {
-    display: flex;    
+    display: flex;        
 }
 .container2 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 0;    
+    margin-top: 3rem;    
+    margin-bottom: 0rem;
+    padding: 0;       
 }
 
 #aboutus h1 {
@@ -302,7 +309,7 @@ a:hover {
     display: none;
 }
 
-@media (min-width: 1200px) {#aboutus .container img {display: block; height: 34rem; margin-left:6rem; } }
+@media (min-width: 1200px) {#aboutus .container img {display: block; height: 41rem; margin-left:6rem; align-items: stretch; } }
 
 
 
@@ -434,7 +441,6 @@ a:hover {
     padding-top:2rem;
     padding-bottom:4rem;
     line-height: 0;
-    
 }
 
 #appointment p {
@@ -470,10 +476,9 @@ a:hover {
 /* footer */
 #footer {
     background-color: #2baaec;
-    display: flex;
-    align-items: center;
-       
+    display: flex;        
 }
+
 #footer p {    
     opacity: 60%;
     color: #F3FBFF;

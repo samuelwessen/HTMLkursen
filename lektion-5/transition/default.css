@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.content {
+    margin: auto;
+}
