@@ -1,0 +1,9 @@
+.animate {
+    position: relative;
+    animation: blink 0.8s infinite;
+}
+
+#c1 { animation-delay: 0s;}
+#c2 { animation-delay: 0.25s;}
+#c3 { animation-delay: 0.5s;}
+
