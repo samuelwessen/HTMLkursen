@@ -1,5 +1,26 @@
 {
-	"HTML with CSS": {
+      "HTML with SCSS": {
+		"prefix": "html:scss",
+		"description": "HTML with SCSS",
+		"body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"sv\">",
+            "<head>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "    ",
+            "    <script src=\"https://kit.fontawesome.com/043e51ac62.js\" crossorigin=\"anonymous\"></script>",
+            "    <link rel=\"stylesheet\" href=\"css/style.min.css\">",
+            "     ",
+            "    <title>$1</title>",
+            "</head>",
+            "<body>",
+            "    $0",
+            "</body>",
+            "</html>"
+		]
+      },
+      "HTML with CSS": {
 		"prefix": "html:css",
 		"description": "HTML with CSS",
 		"body": [
@@ -19,7 +40,7 @@
             "</body>",
             "</html>"
 		]
-    },
+      },
     "HTML with Bootstrap": {
 		"prefix": "html:bootstrap",
 		"description": "HTML with Bootstrap",
