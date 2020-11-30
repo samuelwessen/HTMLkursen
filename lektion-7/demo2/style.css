@@ -1,0 +1,19 @@
+#example {
+    text-align: center;
+}
+@media (min-width: 992px) {
+    #example {
+        text-align: left;
+    }
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
