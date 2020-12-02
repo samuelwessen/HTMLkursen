@@ -1,11 +1,24 @@
 #login-form {
-    margin-top: 5rem;    
-}
-.border {
-    border-radius: 8px;
-}
-.container {
-    background-color: $white;
+     margin-top: 5rem;
+     
+    .login-box {
+        padding-top: 2rem;
+        border-radius: 8px;
+        box-shadow: 5px 10px 10px #00000032;
+        background-color: $white;
+
+        h3 {
+            text-align: center;
+            font-family: $font-secondary;
+        }
+
+        .form-login input{
+           background-color: $inputgrey;
+        }
+
+    }
+
+    
 }
 
 body {
