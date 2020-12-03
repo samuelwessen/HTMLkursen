@@ -6,6 +6,7 @@
         border-radius: 8px;
         box-shadow: 5px 10px 10px #00000032;
         background-color: $white;
+        
 
         h3 {
             text-align: center;
@@ -16,6 +17,18 @@
            background-color: $inputgrey;
         }
 
+        .checkbox {
+            margin-top: 1rem;
+            margin-right: 0.5rem;
+        }
+        #hide1 {
+            display: none;
+        }
+        .eye {
+            align-self: center;
+            margin-left: 0.5rem;
+        }
+
     }
 
     
@@ -23,4 +36,5 @@
 
 body {
     background-color: $blue;
+    
 }

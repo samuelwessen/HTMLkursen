@@ -1,0 +1,54 @@
+#createuser-form {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    
+   .createuser-box {
+       padding-top: 2rem;
+       border-radius: 8px;
+       box-shadow: 5px 10px 10px #00000032;
+       background-color: $white;
+       
+
+       h3 {
+           text-align: center;
+           font-family: $font-secondary;
+       }
+
+       .form-createuser input{
+          background-color: $inputgrey;
+       }
+
+       .checkboxsection {        
+           display: flex;
+           
+           p {
+               margin-top: 1rem;
+               margin-left: 1rem;
+           }   
+        }
+
+        .btn-section {            
+            margin-bottom: 2rem;
+        }
+
+        #hide1 {
+            display: none;
+        }
+        #hide3 {
+            display: none;
+        }
+        
+        .eye {
+            align-self: center;
+            margin-left: 0.5rem;
+        }
+   }
+
+   
+}
+
+body {
+   background-color: $blue;
+   
+}
