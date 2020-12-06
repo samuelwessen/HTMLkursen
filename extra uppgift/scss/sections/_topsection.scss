@@ -1,17 +1,19 @@
-#topmeny-section {      
+#topmeny-section { 
+      height: 1080px;
     
 
     #background-img{
         position: absolute;
       left: -143px;
       top: 0px;
-      z-index: -2;
+      z-index: -3;
     }
+    
 
     .upper-section {
-        display: flex;
-        justify-content: space-between;
+        display: flex;        
         border-bottom: 2px solid #56637b26;
+        width: 72.5rem;
         
     }
 
@@ -23,6 +25,7 @@
             margin-left: 1.875rem;
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
+            margin-right: 10rem;
         }
         img {
             height: 2.5rem;
@@ -40,8 +43,7 @@
             color: #252525;
             font-size: 1.0625rem;
             margin-right: 2.8125rem;
-            text-decoration: none;                       
-            
+            text-decoration: none;           
         }
         
         img {
@@ -49,16 +51,75 @@
             margin-right: 2.8125rem;
         }
 
-        button {
+        button {            
             height: 2.625rem;
             width: 8.75rem;
             border: 1px solid #FF6803;
             border-radius: 5px;
-            font-family: 'Roboto';
+            font-family: 'Roboto', sans-serif;
             color: #252525;
             font-size: 1.0625rem;
             background-color: transparent;
             
         }
+    }
+
+    .lover-section {
+        position: relative;
+        z-index: 1;        
+        display: flex;
+        margin-top: 10rem;
+
+        .create-account {   
+            flex: 1;
+            
+            h2 {                
+                font-family: 'Poppins', sans-serif;
+                font-weight: bold;
+                font-size: 3.75rem;
+                color: #252525;
+                line-height: 4rem;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                color: #57647C;
+                margin-bottom: 2.5rem;                
+            }
+
+            .btn {
+               width: 250px;
+               height: 60px;
+               font-size: 1rem;
+               font-family: 'Roboto',sans-serif;
+               border-radius: 8px;
+               background-image: linear-gradient(to right, #F23779,#FF6803,#FFA62E);
+               color: white;
+               font-weight: bold;
+               border: transparent; 
+            }
+                      
+        }
+
+        .tv-background {
+            flex: 2;
+
+            #shapebackground {                
+                position: relative;
+                left: 0px;
+                top: -280px;
+                z-index: -2;
+            }
+
+            #tvbackground {                
+                position: relative;
+                top: -1080px;
+                left: -30px;
+                z-index: -1;
+            }
+        }
+        
+        
+        
     }
 }
