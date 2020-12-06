@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+$breakpoint-md:  768px;
+$breakpoint-md-max-width: 720px;
+$breakpoint-lg:  992px;
+$breakpoint-lg-max-width: 960px;
+$breakpoint-xl:  1200px;
+$breakpoint-xl-max-width: 1140px;
+$breakpoint-xxl: 1400px;
+$breakpoint-xxl-max-width: 1320px;
+@import "./breakpoints";

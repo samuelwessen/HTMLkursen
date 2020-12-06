@@ -1,0 +1,64 @@
+#topmeny-section {      
+    
+
+    #background-img{
+        position: absolute;
+      left: -143px;
+      top: 0px;
+      z-index: -2;
+    }
+
+    .upper-section {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #56637b26;
+        
+    }
+
+    .owner {
+        display: flex;
+        align-items: center;
+        
+        h2 {
+            margin-left: 1.875rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+        img {
+            height: 2.5rem;
+            width: 2.5rem;
+            
+        }
+    }
+    
+    .topmenu {
+        display: flex;         
+        align-items: center;       
+
+        a {
+            font-family: 'Roboto';
+            color: #252525;
+            font-size: 1.0625rem;
+            margin-right: 2.8125rem;
+            text-decoration: none;                       
+            
+        }
+        
+        img {
+            height: 1.25rem;
+            margin-right: 2.8125rem;
+        }
+
+        button {
+            height: 2.625rem;
+            width: 8.75rem;
+            border: 1px solid #FF6803;
+            border-radius: 5px;
+            font-family: 'Roboto';
+            color: #252525;
+            font-size: 1.0625rem;
+            background-color: transparent;
+            
+        }
+    }
+}
