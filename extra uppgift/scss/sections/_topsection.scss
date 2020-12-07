@@ -1,20 +1,13 @@
-#topmeny-section { 
-      height: 1080px;
-    
-
-    #background-img{
-        position: absolute;
-      left: -143px;
-      top: 0px;
-      z-index: -3;
-    }
-    
+#topmeny-section {     
+    height: 76.625rem;
+    background-image: url(..//../images/Objects.svg), url(..//..//images/BG.svg);
+    background-position-x: 720px, -100px;
+    background-position-y: -40px;         
+    background-repeat: no-repeat;
 
     .upper-section {
         display: flex;        
-        border-bottom: 2px solid #56637b26;
-        width: 72.5rem;
-        
+        border-bottom: 2px solid #56637b26;         
     }
 
     .owner {
@@ -64,14 +57,13 @@
         }
     }
 
-    .lover-section {
-        position: relative;
-        z-index: 1;        
+    .lover-section {               
         display: flex;
         margin-top: 10rem;
 
         .create-account {   
-            flex: 1;
+            flex: 2;
+            border: 1px solid black;
             
             h2 {                
                 font-family: 'Poppins', sans-serif;
@@ -99,25 +91,7 @@
                border: transparent; 
             }
                       
-        }
-
-        .tv-background {
-            flex: 2;
-
-            #shapebackground {                
-                position: relative;
-                left: 0px;
-                top: -280px;
-                z-index: -2;
-            }
-
-            #tvbackground {                
-                position: relative;
-                top: -1080px;
-                left: -30px;
-                z-index: -1;
-            }
-        }
+        } 
         
         
         
