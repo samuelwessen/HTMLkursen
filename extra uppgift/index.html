@@ -11,37 +11,139 @@
 </head>
 <body>
 
-
-    <!-- topmeny section -->
-    <section id="topmeny-section">
-               
-        <div class="container">
-            <div class="upper-section">
-                <div class="owner">
-                    <img src="images/Group 92.svg" alt="">
-                    <h2>Samuel Wessen</h2>
+    <!-- Top menu START -->
+<nav id="top-menu">
+    <div class="container">
+        <div class=" d-flex justify-content-between">
+            <div class="icon d-flex  align-items-center">
+                <img src="images/Group 92.svg" alt="">
+                <span>SAMUEL WESSEN</span>
+            </div>
+            <div>
+                <ul class="nav-links d-flex ">
+                    <li class="nav-link"><a href="#">HOME</a></li>
+                    <li class="nav-link"><a href="#">FEATURES</a></li>
+                    <li class="nav-link"><a href="#">PAGES</a></li>
+                    <li class="nav-link"><a href="#">BLOG</a></li>
+                    <li class="nav-link"><a href="#">CONTACT</a></li>
+                    <li class="nav-link"><a href="#"><i class="fas fa-search"></i></a></li> 
+                    <button>Try it free</button>                      
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="button">MENU</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">HOME</a>
+                        <a href="#">FEATURES</a>
+                        <a href="#">PAGES</a>
+                        <a href="#">BLOG</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="account">
+                    <h2>Best easy & fast digital systems</h2>
+                    <p>Outsource your HR functions to industry-specialized HR experts, so you and your team can dedicate your time.</p>
+                    <button>CREATE ACCOUNT</button>
                 </div>
-                <div class="topmenu">
-                    <a href="http://">HOME</a>
-                    <a href="http://">FEATURES</a>
-                    <a href="http://">PAGES</a>
-                    <a href="http://">BLOG</a>
-                    <a href="http://">CONTACT</a>
-                    <img src="images/Search.svg" alt="">
-                    <button>Try for free</button>
+                <div class="tv">
+                    <img src="images/Image place here.svg" alt="">
+                    <button class="playbtn"><img src="images/Video Play Button.svg" alt=""></button>
                 </div>
             </div>
-            <div class="lover-section">
-                <div class="create-account">
-                    <h2>Best easy & fast digital system</h2>
-                    <p>Outsource your HR functions to industry-specialized HR experts, so you and your team can dedicate your time.</p>
-                    <button class="btn">CREATE YOUR ACCOUNT</button>
-                </div>
-                              
-            </div>                        
-        </div>        
-    </section>
+        </div>
+    </div>
+</nav>
+    <!-- Top menu END -->
+
+
+
+    <!-- Icons START -->
+<div id="icons">
+    <div class="container">
+        <div class="icons">
+            <div class="icon">
+                <img src="images/axcoent.svg" alt="">
+            </div>
+            <div class="icon">
+                <img src="images/aspect.svg" alt="">
+            </div>
+            <div class="icon">
+                <img src="images/frinobit.svg" alt="">
+            </div>            
+            <div class="icon">
+                <img src="images/yoixib.svg" alt="">
+            </div>            
+        </div>
+    </div>    
+</div>
+    <!-- Icons END -->
+
+
+
+    <!-- Tools START -->
+<div id="tools">
+    <div class="container">        
+        <div class="icon-boxes">
+            <div id="tool-box" class="tool-box">
+                <h1>Effective tools for busy administrators.</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="btn">VIEW ALL</button>
+            </div>
+            <div id="page-faster">
+                <img src="images/icon rocket.svg" alt="">
+                <h2>Page Faster</h2>
+                <p>These folk are energized with a complex problem and breaking grappling ullamco.</p>
+            </div>
+            <div id="site-ranking">
+                <img src="images/Icon ranking.svg" alt="">
+                <h2>Site Ranking</h2>
+                <p>These folk are energized with a complex problem and breaking grappling ullamco.</p>
+            </div>
+            <div id="global-award">
+                <img src="images/Icon award.svg" alt="">
+                <h2>Global Award</h2>
+                <p>These folk are energized with a complex problem and breaking grappling ullamco.</p>
+            </div>
+            <div id="safe-secure">
+                <img src="images/icon safe.svg"">
+                <h2>Safe & Secure</h2>
+                <p>These folk are energized with a complex problem and breaking grappling ullamco.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Tools END -->
+
+
+
     
+
+
+
+
+
+        <!-- JS MenuScript -->
+        <script>
+            function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show"); }
+    
+    
+            window.onclick = function(event) {
+                if (!event.target.matches('.button')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                    if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');}}}} 
+    
+        </script>    
+        <!-- JS MenuScript -->
     
 </body>
 </html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="156" viewBox="0 0 156 156">
+  <defs>
+    <filter id="Ellipse_85" x="0" y="0" width="156" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#bfb4b4" flood-opacity="0.31"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Video_Play_Button" data-name="Video Play Button" transform="translate(-1193 -911)">
+    <circle id="Ellipse_86" data-name="Ellipse 86" cx="61" cy="61" r="61" transform="translate(1210 927)" fill="#fff" opacity="0.3"/>
+    <g transform="matrix(1, 0, 0, 1, 1193, 911)" filter="url(#Ellipse_85)">
+      <circle id="Ellipse_85-2" data-name="Ellipse 85" cx="48" cy="48" r="48" transform="translate(30 28)" fill="#fff"/>
+    </g>
+    <path id="Polygon_2" data-name="Polygon 2" d="M12,0,24,21H0Z" transform="translate(1285 976) rotate(90)" fill="#585858"/>
+  </g>
+</svg>

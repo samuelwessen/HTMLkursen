@@ -1,5 +1,8 @@
 @import "./variables";
-@import "./utilites.scss";
+@import "./breakpoints";
+@import "./utilites";
 @import "./default";
 
-@import "./sections/topsection";
+@import "./sections/top-menu";
+@import "./sections/icons";
+@import "./sections/tools";

@@ -1,0 +1,82 @@
+#tools {
+
+   .icon-boxes {
+       margin-top: 1rem;
+       display: grid;
+       grid-template-rows: 1fr;
+       grid-template-areas: "b1"
+                            "b2"
+                            "b3"
+                            "b4"
+                            "b5";
+        gap: 1rem;
+
+        @include md {
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: "b1 b1"
+                                 "b2 b3"
+                                 "b4 b5";                            
+        }
+
+        @include lg {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:    "b1 b2 b3"
+                                    "b1 b4 b5";
+        }
+        
+        p {
+            font-size: 1.125rem;
+            font-family: $font-secondary;
+            color: $lightgrey;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-family: $font-primary;
+            font-weight: bold;
+            color: $darkgrey;
+        }
+
+        h2 {
+            font-size: 1.375rem;
+            font-family: $font-primary;
+            font-weight: bold;
+        }
+        
+        button {
+            margin-top: 1rem;
+            width: 140px;
+            height: 50px;
+            border: none;
+            border-radius: 8px;
+            font-family: $font-secondary;
+            color: white;
+            font-weight: bold;
+            font-size: 1rem;
+            background: linear-gradient(to right, #F23779, #FF6803, #FFA62E);
+        }
+        
+        
+        #tool-box {
+            grid-area: b1;                        
+        }
+        
+        #page-faster {
+            grid-area: b2;            
+        }
+        
+        #site-ranking {
+            grid-area: b3;            
+        }
+        
+        #global-award {
+            grid-area: b4;            
+        }
+        
+        #safe-secure {
+            grid-area: b5;            
+        }
+            
+    }        
+
+}
